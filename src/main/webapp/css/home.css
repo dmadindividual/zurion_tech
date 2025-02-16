@@ -1,0 +1,55 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Headers */
+th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Rows */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Hover Effect */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Action Links */
+td a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: color 0.2s;
+}
+
+td a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

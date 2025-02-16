@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Form Controls */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select, input[type="text"], button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #0056b3;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.no-results {
+    text-align: center;
+    font-style: italic;
+    color: red;
+    padding: 10px;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
